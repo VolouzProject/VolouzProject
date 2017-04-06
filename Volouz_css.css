@@ -1,0 +1,110 @@
+
+
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: "Jazz LET", fantasy;
+    font-size: 100px;
+    
+  }
+  #photo_entete{
+      
+      width: 100%;
+      height: 200px;
+      
+  }
+  #titre_entete li,#la_collection h3{
+      margin-left: 0;
+      padding-left: 0;
+     list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Jazz LET", fantasy;
+    font-size: 30px;
+    
+  }
+  #la_collection h3{
+    
+    
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Jazz LET", fantasy;
+    font-size: 70px;
+    
+  }
+  
+  #photo_entete #Volouz_Title{
+      float: left;
+         width: 300px;
+   border-radius: 8px;
+   height: 200px;
+ 
+    
+       
+  }
+  
+    #photo_entete #Volouz_Hat{
+      float: right;
+          width: 300px;
+   border-radius: 8px;
+   height: 200px;
+    
+     
+       
+  }
+  
+  #titre_entete{
+    text-align: center;
+    text-transform: lowercase;
+    letter-spacing: 4px;
+    font-family: "Jazz LET", fantasy;
+    font-size: 50px; 
+    margin-top: 50px;
+      
+  }
+  
+ #galerie_photo img
+{
+        filter: contrast(100%);
+        -webkit-filter: contrast(100%);
+        -moz-filter: contrast(100%);
+        -o-filter: contrast(100%);
+        -ms-filter: contrast(100%);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#galerie_photo img:hover
+{
+        filter: contrast(50%);
+        -webkit-filter: contrast(50%);
+        -moz-filter: contrast(50%);
+        -o-filter: contrast(50%);
+        -ms-filter: contrast(50%);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+
+
+body {background:white;}
+img {vertical-align:middle; border:#ccc; border-radius: 8px;}
+#galerie_photo {overflow:auto; list-style:none; padding:0;width: 100%;background: #D3D3D3;}
+#galerie_photo  li {float:left;}
+#galerie_photo  a {display:inline-block; padding:10px;margin-left: 10px; outline:none;position: relative; text-decoration: none;}
+#galerie_photo  a span{position: absolute;display: none;top: 25px;left:110px;}
+#galerie_photo  a:hover span{display: block;}
+#galerie_photo  span.descr{top: 170px; left: 120px;font-size: 40px;color:white;font-weight: bold;z-index: 2;font-family: "Jazz LET", fantasy;}
+#galerie_photo  span.prix{top: 200px; font-size: 40px; color:white;font-weight: bold;z-index: 2;font-family: "Jazz LET", fantasy;}
+
+
+
+  
+

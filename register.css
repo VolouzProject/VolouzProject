@@ -1,0 +1,59 @@
+#desc1{
+    
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    font-family: "Jazz LET", fantasy;
+    margin-bottom: 20px;
+    
+  }
+  
+  #desc1 p, #desc2 p, #formulaire p{
+      
+      color: #811453;
+      margin-bottom: 10px;
+  }
+    #desc1 h1, #desc2 h1, #formulaire h1{
+      margin-bottom: 10px;
+      color: #811453;
+  }
+  
+    #desc1, #desc2 {
+      
+      border: 2px solid #666;
+      border-radius: 8px;
+  }
+  #desc2{
+    
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    
+    font-family: "Jazz LET", fantasy;
+    
+    
+  }
+  
+  #formulaire{
+      
+      display: block;
+      margin-left: 550px;
+  }
+  #formulaire input{
+      
+      
+      width: 200px;
+      
+      
+  }
+  
+
+  html { 
+
+  margin:0;
+  padding:0;
+  background: url(VolouzRegister.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
